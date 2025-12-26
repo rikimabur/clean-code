@@ -29,3 +29,11 @@ The Interface Segregation Principle (ISP) advises that no client should be force
 it does not use. The ISP promotes the segregation of large interfaces into smaller and more specific
 ones so that clients only need to know about the methods that are of interest to them. This approach
 leads to a more decoupled and maintainable system.
+
+## Dependency Inversion Principle (DIP)
+The Dependency Inversion Principle (DIP) aims to reduce dependencies among high-level modules
+and low-level modules by introducing an abstraction layer. Specifically, the DIP states two key things:
+- High-level modules should not depend on low-level modules. Both should depend on abstractions.
+- Abstractions should not depend upon details. Details should depend upon abstractions.
+This principle encourages decoupling in software architecture, which leads to more maintainable
+and flexible code.
