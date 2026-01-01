@@ -1,3 +1,13 @@
+# Separation of concerns (SoC) Todo
+
+# Don’t repeat yourself (DRY)
+The DRY principle advocates the separation of concerns principle and aims to eliminate redundancy.
+When we have duplicated logic in your system, encapsulate it and reuse that new encapsulation in multiple places instead. If you find yourself
+writing the same or similar code in numerous places, refactor that code into a reusable component instead. Leverage functions, classes, modules, or other abstractions to refactor the code.
+
+# Keep it simple, stupid (KISS) Todo
+# You Aren’t Gonna Need It (YAGNI) Todo
+
 # SOLID Principles in .NET
 
 One of the most common acronyms you will come across as a .NET developer is **SOLID**.  
